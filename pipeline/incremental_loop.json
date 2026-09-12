@@ -333,9 +333,7 @@
 						"activity": "ForEach1",
 						"dependencyConditions": [
 							"Failed",
-							"Skipped",
-							"Succeeded",
-							"Completed"
+							"Succeeded"
 						]
 					}
 				],
@@ -351,7 +349,7 @@
 					"method": "POST",
 					"url": "https://prod-19.northcentralus.logic.azure.com:443/workflows/3f71a8e8b1cc447fa7102e074f851f12/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=dYz9l08evph0-Pm9F1W10PxlSE35XqJop6AIN16JNa0",
 					"body": {
-						"value": "{\n    \"pipeline_name\":\"@{pipeline().Pipeline}\",\n     \"pipeline_runId\" : @{pipeline().RunId}\"\n}",
+						"value": "{\n    \"pipeline_name\":\"@{pipeline().Pipeline}\",\n     \"pipeline_runId\":\"@{pipeline().RunId}\"\n}",
 						"type": "Expression"
 					}
 				}
