@@ -1,0 +1,15 @@
+{
+	"name": "sushADFProject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "477745a0-1c83-4953-b922-5f594cb1bdba",
+		"tenantId": "1b09762e-0a19-41f6-944b-814b6d303c67"
+	}
+}
