@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "sushADFProject"
+		},
+		"Azure_sql_password": {
+			"value": ""
+		},
+		"DataLake_accountKey": {
+			"value": ""
+		},
+		"Azure_sql_properties_typeProperties_server": {
+			"value": "azureprojectsvr.database.windows.net"
+		},
+		"Azure_sql_properties_typeProperties_database": {
+			"value": "azureprojectdbsush"
+		},
+		"Azure_sql_properties_typeProperties_userName": {
+			"value": "adminsush"
+		},
+		"DataLake_properties_typeProperties_url": {
+			"value": "https://sushazureproject.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
